@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: 'FMAbayaBold';
+    src: url('./fonts/FMAbayaBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style:normal ;
+  }
+  
+@font-face {
+    font-family: 'FMAbhaya';
+    src: url('./fonts/FMAbhaya.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.FMAbayaBold {
+    font-family: 'FMAbayaBold', sans-serif;
+  }
+  
+.FMAbhaya {
+    font-family: 'FMAbhaya', sans-serif;
+  }
+  
+  
