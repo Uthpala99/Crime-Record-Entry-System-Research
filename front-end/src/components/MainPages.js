@@ -3,6 +3,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import { GlobalState } from '../GlobalState';
 import Login from './login/Login';
 import Home from './Home';
+import Register from './register/Register';
 
 const MainPages = () => {
     const state = useContext(GlobalState)
@@ -17,7 +18,7 @@ const MainPages = () => {
     {/* <Route path='/admin' element={isAdmin&&<AdminPageShell />} /> */}
 
     <Route path='/signin' element={isLogged?<Navigate to={'/'}/>:<Login />} />
-    {/* <Route path='/signup' element={isLogged?<Navigate to={'/'}/>:<Register />} /> */}
+    <Route path='/signup' element={isLogged?<Navigate to={'/'}/>:<Register />} />
 
     {/* Profile */}
     {/* <Route path='/profile' element={isLogged&&<Profile />} />
